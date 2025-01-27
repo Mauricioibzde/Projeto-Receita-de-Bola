@@ -1,0 +1,150 @@
+@import url(./media\ query.css);
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+--font-family: "Poppins", serif;
+
+}
+
+h1 , p ,h2 {
+    font-family: var(--font-family) ;
+    
+
+}
+
+h1 {
+   color: var(--text-color-primary);
+   font-size: 1.8rem;
+}
+
+p {
+    color: var(--text-color-secondary);
+    font-size: 1rem;
+}
+
+
+
+
+
+:root {
+    --brand-color:#ef5f4c;
+      --background-color:#573824;   
+      --surface-color:#F0E8C2;
+      --text-color-on-bg:#F0E8C2;
+       --text-color-primary:#291B1A;
+       --text-color-secondary:#573A37;
+       --font-family: "Poppins", serif;
+       --text: bold 16px/1.6 var(--font-family);
+       --text-lg:  40px/140% var(--font-family);
+       --text-md:  24px/150% var(--font-family);
+       --text-sm: 16px/150% var(--font-family);
+ 
+
+
+
+    } 
+    section {
+        width: 100%;
+        height: 100%;
+        background-image: url(./assets/img/main-image.png) ;
+        background-position: center;
+        background-size: cover;
+        background-color: #291B1A;
+       
+       
+    }
+
+    .background {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #291b1ac9;
+       
+}
+
+.container {
+    max-width: 1280px;
+    height: 100%;
+    padding-inline: 32px;
+    padding-block: 100px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item {
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    display: flex;
+    background-color: var(--surface-color);
+    border-radius: 20px;
+    padding-block: 30px;
+    padding-inline: 80px;
+}
+
+.item .img { 
+    width: 100%;
+
+}
+
+.item .img img{ 
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+}
+
+.text-title-and-description {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-title-and-description h1 {
+    padding-top: 10px;
+  
+}
+.text-title-and-description p {
+   
+}
+
+.time ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 5px;
+   
+}
+
+.time ul li {
+    color: var(--text-color-secondary);
+}.Ingredientes {
+    color: var(--text-color-secondary);
+    font-size: 1.2rem;
+}
+
+.Ingredientes h1 {
+    padding-block: 10px;
+    font-size: 1.8rem;
+
+}
+.Modo-de-preparo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Modo-de-preparo h1{
+padding-block: 10px;
+}
+
+       
+    
